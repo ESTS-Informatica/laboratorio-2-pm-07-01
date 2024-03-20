@@ -74,7 +74,13 @@ public class Company {
      * @return true If the registration succeeds, false otherwise.
      */
     public boolean registerClient(User client) {
-        return true;         // dummy implementation
+        if (clients.contains(client)) 
+        {
+            return false; 
+        } else {
+            clients.add(client);
+            return true;
+        }        
     }
 
     /**

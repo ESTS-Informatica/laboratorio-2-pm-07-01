@@ -13,11 +13,11 @@ import org.junit.jupiter.api.Test;
  */
 public class CompanyTest
 {
-        Company company1;
-        User client1;
-        User client2;
-        User seller1;
-        User seller2;
+        private Company company1;
+        private User client1;
+        private User client2;
+        private User seller1;
+        private User seller2;
     /**
      * Default constructor for test class CompanyTest
      */
